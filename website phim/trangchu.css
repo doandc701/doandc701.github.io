@@ -1,0 +1,500 @@
+body
+        {   
+            font-family: 'Times New Roman', Times, serif;
+            width: 1200px;
+            height: 1200px;
+            background-color: #555358;
+            margin: 0px auto;
+        }
+        .banner
+        {
+            width: 1200px;
+            height: 150px;
+            background-color:  #555358;;
+        }
+        .banner .top
+        {
+            width: 1200px;
+            height: 80px;
+            background-color: #3b3a3f;
+            
+            border: 1px solid #3b3a3f ;
+            border-radius: 5px;
+        }
+        .banner .top .left
+        {
+            width: 500px;
+            height: 80px;
+            float: left;
+        }
+        .banner .top .left h1{
+            animation: my 200ms infinite;
+            @-webkit-keyframes: my 700ms infinite;
+            
+        }
+        @-webkit-keyframes my {
+            0% { color: #17cf11; } 
+            60% { color: #fff;  } 
+            100% { color: #17cf11;  } 
+        }
+        .banner .top .right
+        {
+            width: 496px;
+            height: 80px;
+            float: left;
+        }
+        .banner .bottom
+        {
+            width: 1200px;
+            height: 70px;
+            background-color: #323031;
+          
+            border: 1px solid #3b3a3f ;
+            border-radius: 5px;
+        }
+        .banner .bottom ul
+        {
+            margin: 0px;
+            padding: 0px;
+
+        }
+        .banner .bottom ul li
+        {
+            list-style: none;
+            float: left;
+            
+        }
+        .banner .bottom ul li a
+        {
+            text-decoration: none;
+            display: block;
+            height: 70px;
+            line-height: 70px;
+            padding: 0px 15px 0px 17px;
+            font-size: 20px;
+            color: white;
+            text-transform: unset;
+        }
+        .banner .bottom ul li a:hover{
+            color: rgb(0, 255, 213);
+
+        }
+        .banner .bottom ul li a.active,
+        
+        .banner .bottom ul li a:focus
+        {
+            background-color: rgba(123, 240, 14, 0.473);
+            color: rgb(0, 255, 213);
+            /* animation-delay: 2s;
+            animation: move 1s infinite; */
+        }
+        /* @keyframes move {
+            from { left:0px;}
+            to{left:10px;}
+        } */
+        .than
+        {
+            width: 1000px;
+            height: 1050px;
+            background-color: #1d1d1d;
+            margin: 0px auto;
+        }
+        .than img:hover {
+            transform: scale(1.1);
+        }
+        /* .than b:hover{
+            animation-delay: 2s;
+            animation: move 1s infinite;
+        }
+        @keyframes move {
+            from { left:0px;}
+            to{left:10px;}
+        } */
+        .than .left
+        {
+            width: 700px;
+            height: 900px;
+            
+            float: left;
+           
+        }
+        .than .left span
+        {
+            color: #7e7d81;;
+        }
+        .than .left .top
+        {
+            width: 700;
+            height: 300px;
+            float: left;
+            
+        }
+        .than .left .top .m
+        {
+            width: 700px;
+            height: 30px;
+    
+        }
+        .than .left .top .m .l
+        {
+            width: 600px;
+            height: 30px;
+           
+            float: left;
+        }
+        .than .left .top .m .r
+        {
+            width: 100px;
+            height: 30px;
+           
+            float: left;
+        }
+        .than .left .top .h
+        {
+            width: 700px;
+            height: 270px;
+            
+        }
+       
+        .than .left .top .h .mot
+        {
+            width: 170px;
+            height:270px;
+            float: left;
+            margin-left: 2px;
+        }
+        
+        
+        .than .left .top .h .hai
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .left .top .h .ba
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .left .top .h .bon
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .left .mid
+        {
+            width: 700;
+            height: 300px;
+        }
+        .than .left .mid .m
+        {
+            width: 700px;
+            height: 30px;
+            
+    
+        }
+        .than .left .mid .m .l
+        {
+            width: 600px;
+            height: 30px;
+            padding-top: 20px;
+            float: left;
+        }
+        .than .left .mid .m .r
+        {
+            width: 100px;
+            height: 30px;
+            padding-top: 20px;
+            float: left;
+        }
+        .than .left .mid .h
+        {
+            width: 700px;
+            height: 270px;
+            
+           
+        }
+        .than .left .mid .h .mot
+        {
+            width: 170px;
+            height: 270px;
+           
+            float: left;
+            margin-left: 2px;
+        }
+        .than .left .mid .h .hai
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .left .mid .h .ba
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .left .mid .h .bon
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .left .bottom
+        {
+            width: 700;
+            height: 300px;
+           
+        }
+        .than .left .bottom .m
+        {
+            width: 700px;
+            height: 30px;
+    
+        }
+        .than .left .bottom .m .l
+        {
+            width: 600px;
+            height: 30px;
+            padding-top: 20px;
+            float: left;
+        }
+        .than .left .bottom .m .r
+        {
+            width: 100px;
+            height: 30px;
+            padding-top: 20px;
+            float: left;
+        }
+        .than .left .bottom .h
+        {
+            width: 700px;
+            height: 270px;
+            
+        }
+        .than .left .bottom .h .mot
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 2px;
+        }
+        .than .left .bottom .h .hai
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .left .bottom .h .ba
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .left .bottom .h .bon
+        {
+            width: 170px;
+            height:270px;
+            
+            float: left;
+            margin-left: 5px;
+        }
+        .than .right
+        {
+            width: 260px;
+            height: 900px;
+            float:  left;
+            margin-left: 40px;
+            
+        }
+        .than .right .top
+        {
+            width: 200;
+            height: 300px;
+            
+            
+        }
+        .than .right .mid
+        {
+            width: 200;
+            height: 200px;
+           
+            
+        }
+        .than .right .mid ul
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        .than .right .mid ul li
+        {
+            list-style: none;
+            float: left;
+            padding-left: 14px;
+        }
+        .than .right .mid ul li a
+        {
+            text-decoration: none;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #ffffff;
+        }
+        .than .right .mid ul li a:hover
+        {
+            color: rgb(230, 142, 11);
+        }
+        .than .right .bottom
+        {
+         
+            width: 200;
+            height: 425px;
+            
+        }
+        .than .right .bottom .top
+        {
+            width: 200px;
+            height: 210px;
+           
+            margin-bottom: 5px;
+        }
+        .than .right .bottom .bottom
+        {
+            width: 200px;
+            height: 210px;
+           
+        }
+        .ket
+        {
+            width: 1200px;
+            height: 150px;
+            background-color: #222222;
+            margin: 0px auto;
+            border: 1px solid #3b3a3f ;
+            border-radius: 5px;
+        }
+        .ket .mt
+        {
+            width: 300px;
+            height: 150px;
+            color: white;
+            float: left;
+            margin-left: 50px;
+        }
+        .ket .mt b{
+            animation: my 200ms infinite;
+            @-webkit-keyframes: my 700ms infinite;
+            
+        }
+        @-webkit-keyframes my {
+            0% { color: #17cf11; } 
+            60% { color: #fff;  } 
+            100% { color: #17cf11;  } 
+        }
+        .ket .hi
+        {
+            width: 230px;
+            height: 150px;
+            color: white;
+            float: left;
+        }
+        .ket .hi ul 
+        {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .ket .hi ul li
+        {
+            list-style: none;
+        }
+        .ket .hi ul li a
+        {
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .ket .hi ul li a:hover
+        {
+            color: rgb(120, 192, 3);
+        }
+        .ket .ba
+        {
+            width: 230px;
+            height: 150px;
+            color: white;
+            float: left;
+        }
+        .ket .ba ul 
+        {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .ket .ba ul li
+        {
+            list-style: none;
+        }
+        .ket .ba ul li a
+        {
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .ket .ba ul li a:hover
+        {
+            color: rgb(120, 192, 3);
+        }
+        .ket .bn
+        {
+            width: 225px;
+            height: 150px;
+            color: white;
+            float: left;
+        }
+        .ket .bn ul 
+        {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .ket .bn ul li
+        {
+            list-style: none;
+        }
+        .ket .bn ul li a
+        {
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .ket .bn ul li a:hover
+        {
+            color: rgb(120, 192, 3);
+        }
+        .than a
+        {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
